@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+    <script type="text/javascript"
+    src="https://api.sendinblue.com/v3/emailCampaigns"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('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')
+  </script>
+
+</head>
+<body>
+    <div class="enviar">
+        <input type="text" id="nomeCompleto" placeholder="Nome completo"> <br>
+        <input type="email" id="email_id" placeholder="Email"> <br>
+        <textarea id="mensagem" placeholder="mensagem" required></textarea> <br>
+        <button onclick="SendMail()">Enviar</button>
+    </div>
+    
+</body>
+</html> 

@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    padding: 24px;
+    background-color: rgb(59, 34, 128);
+}
+
+
+input, textarea, button{
+    margin: 4px 00;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    box-shadow: 5px 5px rgba(245, 74, 0, 0.503);
+}
+
+.enviar{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
